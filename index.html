@@ -9,17 +9,12 @@
     <!-- FontAwesome-css -->
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
-    <!-- typed.js  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <!-- Google-Font -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet">
     <!-- Bootstrap-css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-     <!-- custom script  -->
-    <script src="/js/scripts.js"></script>
-    <script src="/js/main.js"></script>
     <!-- custom-css -->
     <link rel="stylesheet" href="style.css">
     <title>Asima</title>
@@ -29,7 +24,7 @@
     <!------------------- Header-area start------------------>
     <header class="header">
         <!------------------- Navigation-area start------------------>
-        <nav class="navbar navbar-expand-md navbar-dark navbar-bg fixed-top mb-5">
+        <nav class="navbar navbar-expand-md navbar-dark navbar-bg fixed-top">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
                     aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,28 +63,31 @@
         </nav>
         <!------------------- Navigation-area end------------------>
         <!------------------- Home-area start------------------>
-        <section class="home py-5" id="home">
-            <div class="container">
-                <div class="row py-md-5 my-md-5 py-sm-4 my-md-4 py-3 my-3 text-white text-center">
-                    <div class="col-md-12 home-info py-md-5 my-md-5 py-sm-4 my-md-4 py-3 my-3">
-                        <h1>Asima Chowdhury</h1>
-                        <h5 class="green-highlight py-2"><span class="text-white">I'm A </span>Web Developer<span class="typing"></span></h5>
-                        <div class="social-media">
-                            <a href="https://www.linkedin.com/in/asima-chowdhury" target="_blank"><i
-                                    class="fab fa-linkedin"></i></a>
-                            <a href="https://github.com/asima-chowdhury" target="_blank"><i
-                                    class="fab fa-github-square"></i></a>
-                            <a href="https://medium.com/@asimachowdhury.lu" target="_blank"><i
-                                    class="fab fa-medium"></i></a>
-                        </div>
-                        <div class="home-resume pt-4">
-                            <a href="#about">
-                                <button type="button" class="btn btn-success mr-3">About me</button>
-                            </a>
-                            <a href="https://drive.google.com/file/d/156E11VtHURaeKeEAEw1X6uFxs3ik4GYM/view?usp=sharing"
-                                target="_blank">
-                                <button type="button" class="btn btn-outline-success">Resume</button>
-                            </a>
+        <section class="home" id="home">
+            <div id="particles-js">
+                <div class="container home-container">
+                    <div class="row text-white text-center">
+                        <div class="col-md-12 home-info">
+                            <h1 class="font-weight-bold">Asima Chowdhury</h1>
+                            <h5>I'm a <span class="green-highlight py-3">Web Developer</span>
+                            </h5>
+                            <div class="social-media">
+                                <a href="https://www.linkedin.com/in/asima-chowdhury" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/asima-chowdhury" target="_blank"><i
+                                        class="fab fa-github-square"></i></a>
+                                <a href="https://medium.com/@asimachowdhury.lu" target="_blank"><i
+                                        class="fab fa-medium"></i></a>
+                            </div>
+                            <div class="home-resume pt-4">
+                                <a href="#about">
+                                    <button type="button" class="btn btn-success mr-3">About me</button>
+                                </a>
+                                <a href="https://drive.google.com/file/d/156E11VtHURaeKeEAEw1X6uFxs3ik4GYM/view?usp=sharing"
+                                    target="_blank">
+                                    <button type="button" class="btn btn-outline-success">Resume</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -121,13 +119,91 @@
                                 class="fab fa-medium"></i></a>
                     </div>
                 </div>
-                <div class="col-md-5 offset-md-1 about-img">
+                <div class="col-md-5 offset-md-1 about-img col-auto">
                     <img src="images/asima.png" alt="asima" class="img-fluid" />
                 </div>
             </div>
         </div>
     </section>
     <!------------------- About-area end------------------>
+    <!-------------- Education-area Start ------------->
+    <section class="py-5 my-5 education">
+        <div class="container py-5 education">
+            <div class="section-title green-highlight text-center pb-5">
+                <h2>Education</h2>
+                <img src="images/divider.png" alt="divider" />
+            </div>
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-5 rounded p-3 single-education">
+                    <p class="text-white pt-2">B.Sc. in Computer Science & Engineering,<br> 2017 – Present,
+                        <br>Leading University, Sylhet.</p>
+                </div>
+                <div class="col-md-5 rounded p-3 single-education">
+                    <p class="text-white pt-2">Higher Secondary School Certificate, <br> 2013 - 2015 <br>Sylhet
+                        Govt. Women’s College, Sylhet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------- Education-area Start ----------->
+    <!---------------- Skill-area Start ------------------>
+    <section>
+        <div class="container py-5 my-5">
+            <div class="skills text-dark">
+                <div class="section-title green-highlight text-center pb-5">
+                    <h2>My Skills</h2>
+                    <img src="images/divider.png" alt="divider" />
+                </div>
+                <div class="row">
+                    <div class="col-md-4 single-skill">
+                        <h5 class="text-white border-bottom border-white d-inline pb-1">Comfortable:</h5>
+                        <ul class="list-inline pt-2">
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">React.js</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">JavaScript</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">MongoDB</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">React Bootstrap
+                            </li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">REST API</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">React Router</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">Bootstrap</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">REST API</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">HTML</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">CSS</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 single-skill">
+                        <h5 class="text-white border-bottom border-white d-inline pb-1">Familiar:</h5>
+                        <ul class="list-inline pt-2">
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">Node.js</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">Express.js</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">Material UI</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">JSON</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">SASS</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">WordPress</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">PHP</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">MySQL</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">JAVA</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">C/C++</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">OOP</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 single-skill">
+                        <h5 class="text-white border-bottom border-white d-inline pb-1">Tools:</h5>
+                        <ul class="list-inline pt-2">
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">VS Code</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">Chrome Dev Tool
+                            </li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">Firebase</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">Netlify</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">Heroku</li>
+                            <li class="list-inline-item p-1 m-1 rounded font-weight-bold">Notepad++</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------- Skill-area end ------------->
     <!------------------- Project-area start---------------->
     <section id="projects" class="projects-area py-md-5 py-sm-4 py-3 ">
         <div class="container">
@@ -338,8 +414,7 @@
                             <div class="card-body">
                                 <h5 class="card-title green-highlight">20 Must Learn Interview Questions From HTML </h5>
                                 <p class="card-text">Discussed very basic topics of HTML & HTML5 that is needed to start
-                                    a
-                                    interview.</p>
+                                    a interview.</p>
                             </div>
                             <div class="card-footer">
                                 <div class="btn btn-outline-success">
@@ -365,7 +440,7 @@
             <div class="row">
                 <div class="col-md-8 mx-auto">
                     <div class="py-5">
-                        <form class="contact-form" action="https://formspree.io/f/xjvpryyy" method="POST"
+                        <form class="contact-form p-3" action="https://formspree.io/f/xjvpryyy" method="POST"
                             id="contact-form">
                             <div class="form-group">
                                 <input type="text" class="form-control" name="name" placeholder="Your name..." required>
@@ -375,17 +450,16 @@
                                     placeholder="Your email address..." required>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="subject" placeholder="Enter subject..."
+                                <input type="text" class="form-control" name="subject" placeholder="Subject..."
                                     required>
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control" name="message" rows="4" placeholder="Your message..."
                                     required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-success btn-block">Send Message</button>
+                            <input type="submit" class="form-control" value="Send Message">
                         </form>
                     </div>
-                    <div id="status"></div>
                 </div>
             </div>
         </div>
@@ -408,8 +482,6 @@
     </footer>
     <!------------------- Footer-area end------------------>
     <!------------------- JS-code start------------------>
-
-    <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -419,7 +491,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-        
+    <script src="js/jquery.min.js"></script>
+    <script src="js/particle.min.js"></script>
+    <script src="js/app.js"></script>
     <!------------------- JS-code end------------------>
 </body>
 
