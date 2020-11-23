@@ -40,6 +40,30 @@ p{
     color: #25CA7F!important;
     border-bottom: 2px solid #25CA7F;
 }
+.section-title h2{
+    position: relative;
+    padding-bottom: 15px;
+}
+.section-title h2::before{
+    position: absolute;
+    content: "";
+    width: 103px;
+    height: 2px;
+    background-color: #25CA7F;
+    left: 45%;
+    bottom: 1px;
+}
+.section-title h2::after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #25CA7F;
+    left: 49%;
+    bottom: -6px;
+    transform: rotate(45deg);
+    border: 3px solid #000;
+}
 /* ------- home ------ */
 .home-container{
     z-index: 1;
