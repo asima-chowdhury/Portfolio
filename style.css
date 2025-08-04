@@ -20,12 +20,30 @@ a{
 p{
     font-size:18px;
 }
+.btn-success, .btn-success:hover {
+    color: #000000;
+    background-color: #9AD0EC!important;
+    border-color: #9AD0EC!important;
+}
+
+.btn-outline-success {
+    color: #9AD0EC;
+    background-color: transparent;
+    background-image: none;
+    border-color: #9AD0EC;
+}
+.project-card a:hover {
+    color: #9AD0EC;
+    background-color: transparent;
+    background-image: none;
+    border-color: #9AD0EC;
+}
 /* -------- header-------- */
 .logo{
     width:150px;
 }
 .green-highlight{
-    color:#25CA7F!important;
+    color:#9AD0EC!important;
 }
 .navbar-bg{
     background-color: #111416!important;
@@ -37,8 +55,8 @@ p{
     border-bottom: 2px solid transparent;
 }
 .header .nav-link:hover{
-    color: #25CA7F!important;
-    border-bottom: 2px solid #25CA7F;
+    color: #9AD0EC!important;
+    border-bottom: 2px solid #9AD0EC;
 }
 .section-title h2{
     position: relative;
@@ -49,7 +67,7 @@ p{
     content: "";
     width: 103px;
     height: 2px;
-    background-color: #25CA7F;
+    background-color: #9AD0EC;
     left: 45%;
     bottom: 1px;
 }
@@ -58,7 +76,7 @@ p{
     content: "";
     width: 15px;
     height: 15px;
-    background-color: #25CA7F;
+    background-color: #9AD0EC;
     left: 49%;
     bottom: -6px;
     transform: rotate(45deg);
@@ -103,7 +121,7 @@ p{
     animation: animation 4s ease ;
 }
 .social-media a:hover{
-    color: #25CA7F;
+    color: #9AD0EC;
     transform: rotate(360deg);
 }
 /* ------- education -------- */
@@ -122,7 +140,7 @@ p{
 }
 /* ------ skills------ */
 .single-skill ul li{
-    background-color:#25CA7F;
+    background-color:#9AD0EC;
     transition: all .3s ease-in-out;
 }
 .single-skill ul li:hover{
@@ -137,7 +155,7 @@ p{
     overflow: hidden;
 }
 .project-card img {
-    border: 5px solid #25CA7F;
+    border: 5px solid #9AD0EC;
     width: 100%;
     transition: all .8s ease-in-out;
     overflow: hidden;
@@ -146,7 +164,7 @@ p{
     transform: scale(1.1);
 }
 .project-card a:hover{
-    color: #070708!important;
+    /* color: #070708!important; */
 }
 .card-footer {
     border-top: 2px solid #191919;
@@ -161,7 +179,7 @@ p{
     transition: all .5s ease-in-out;
 }
 .blog-card img{
-    border: 5px solid #25CA7F;
+    border: 5px solid #9AD0EC;
 }
  .blog-card:hover{
     transform: rotate(5deg) scale(1.1);
